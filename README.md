@@ -8,7 +8,7 @@ This repository is organized as the following:
 
 - App: contains the project of a crypto wallet based on ZainMustafaaa's Android Ethereum Wallet [[1]](#references).
 - TWallet App: contains the same project, but with some minor modifications to include the TWallet system
-- pre-gen apks: contains the already generated apks from both wallets, in case the user only pretends to test the applications
+- apks: contains the already generated apks from both wallets, in case the user only pretends to test the applications
 
 ## Pre-requisites
 
