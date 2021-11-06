@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".walletProfile.menu.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/dummyText"
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:text=""
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/balanceText"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:text="@string/balance_text"
+            android:textSize="30sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp" />
+
+        <TextView
+            android:id="@+id/etherBalanceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:text="@string/eth"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"/>
+
+        <TextView
+            android:id="@+id/ethBalanceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/usd"
+            android:textSize="15sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"/>
+
+        <TextView
+            android:id="@+id/dummyText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="30sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <Button
+                android:id="@+id/refreshButton"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="40dp"
+                android:background="@drawable/button_background"
+                android:text="@string/refresh_button"
+                android:textColor="@color/white"
+                android:drawableEnd="@drawable/ic_refresh_white_24"
+                android:drawablePadding="-15dp"
+                android:paddingEnd="15dp"
+                android:paddingStart="0dp"
+                tools:ignore="RelativeOverlap" />
+
+            <Button
+                android:id="@+id/sendButton"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/button_background"
+                android:text="@string/send_text"
+                android:textColor="@color/white"
+                android:drawableEnd="@drawable/ic_send_white_24"
+                android:drawablePadding="-30dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="0dp"
+                tools:ignore="RelativeOverlap" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TWallet Secure</string>
+    <string name="app_icon">App Icon</string>
+    <string name="new_wallet">New Wallet</string>
+    <string name="pwd_placeholder">Enter password</string>
+    <string name="create_wallet">Create Wallet</string>
+    <string name="unlock_wallet">Unlock Wallet</string>
+    <string name="unlock_wallet_btn">Unlock</string>
+    <string name="loading">Loading…</string>
+    <string name="title_home">Home</string>
+    <string name="title_transactions">Transactions</string>
+    <string name="title_settings">Settings</string>
+    <string name="eth"> … ETH</string>
+    <string name="usd">… USD</string>
+    <string name="refresh_button">Refresh</string>
+    <string name="tx_address">Address: </string>
+    <string name="tx_value">Value: </string>
+    <string name="send_text">Send</string>
+    <string name="copy_address_text">Copy address</string>
+    <string name="address_text">Address: </string>
+    <string name="transactions_text">Transaction History</string>
+    <string name="wallet_icon">Wallet Icon</string>
+    <string name="wallet_address_text">Wallet Address No.</string>
+    <string name="export_wallet">Export Wallet</string>
+    <string name="logout_wallet">Logout</string>
+    <string name="delete_wallet">Delete Account</string>
+    <string name="profile_text">Profile</string>
+    <string name="about_us_text">About Us</string>
+    <string name="ethValue">"Value: "</string>
+    <string name="balance_text">Balance</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="export_confirm_message_1">Do you really wish to export your wallet?\nThe wallet file will be exported to \'Downloads\'</string>
+    <string name="export_confirm_message_2">Please type the wallet password and press confirm.</string>
+    <string name="delete_confirm_message_1">Do you really wish to delete this wallet account?</string>
+    <string name="delete_confirm_message_2">Please type the wallet password and press confirm.</string>
+    <string name="security_text">Security</string>
+    <string name="monitoring_text">Lock Wallet</string>
+    <string name="event_log_text">Retrieve Log</string>
+    <string name="lock_wallet">Lock/Unlock Wallet</string>
+    <string name="lock_confirm_message_1">Do you really wish to lock the wallet?</string>
+    <string name="lock_confirm_message_2">All operations will become unusable until future unlock!</string>
+    <string name="retrieve_log">Retrieve Log</string>
+    <string name="retrieve_log_message_1">Do you wish the retrieve the Event Log?</string>
+    <string name="retrieve_log_message_2">This operation will export a log containing all operations done through with the secure components.</string>
+</resources>
